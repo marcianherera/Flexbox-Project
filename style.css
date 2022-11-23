@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/bg-masthead.jpg);
+    align-items: center;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center left;
+
+}
+.port{
+    font-size: 50px;
+}
+.free{
+    font-style: italic;
+    margin: 10px;
+}
+
+.button{
+    border: 1px solid rgb(0, 128, 163);
+    align-items: center;
+    background-color: rgb(0, 128, 163);
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    height:  50px;
+    width: 150px;
+    
+}
+.billboard{
+    height: 400px;   
+justify-content: center;
+display: flex;
+align-items: center;
+background-color: rgb(248, 249, 250);
+flex-direction: column;
+}
+.theme{
+    font-weight: lighter;
+    font-size: 14px;
+}
+.button2{
+    border: 1px solid rgb(51, 58, 65);
+    align-items: center;
+    background-color: rgb(51, 58, 65);
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    height:  50px;
+    width: 150px;
+    
+}
+.h5{
+    font-weight: 200;
+    color: rgb(251, 189, 0);
+}
+.services{
+    color: rgb(251, 189, 0);
+}
+
+.offer{
+    color: white;
+}
+.billboard2{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 128, 163);
+    flex-direction: column;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa{
+    display: flex;
+    border: 1px solid rgb(0, 128, 163);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0 100px;
+    padding: 30px 30px;
+    color: rgb(85, 144, 184);
+    text-align: center; 
+    font-size: 30px;
+    margin-top: 50px;
+ 
+}
+.must{
+    display: flex;
+    border: 1px solid rgb(0, 128, 163);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0 100px;
+    padding: 30px 30px;
+    color: rgb(85, 144, 184);
+    text-align: center; 
+    font-size: 30px;
+    margin-top: 50px;
+    
+}
+.mustache{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; 
+}
+.icons p{
+    color: rgb(182, 218, 228);
+}
+
+
+.fas{
+    display: flex;
+    border: 1px solid rgb(0, 128, 163);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0 100px;
+    padding: 30px 30px;
+    color: rgb(85, 144, 184);
+    text-align: center; 
+    font-size: 30px;
+    margin-top: 50px;
+    
+
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.pen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.icons h2{
+    margin: 15px;
+}
+
+
+
+
+.billboard3{
+    height: 600px;
+    display: flex;
+    background-image: url(img/bg-callout.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.button3{
+    border: 1px solid rgb(0, 128, 163);
+    align-items: center;
+    background-color: rgb(0, 128, 163);
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    height: 50px;
+    width: 150px;
+}
+.billboard4{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio{
+   color: rgb(242, 184, 0);
+   
+}
+.stat{
+    display: flex;
+    justify-content: center;
+   
+}
+.pic1{
+    background-image: url(img/portfolio-1.jpg);
+    height: 300px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    padding-left: 40px;
+    background-position: center left;
+    background-size: cover;
+}
+.pic2{
+    background-image: url(img/portfolio-2.jpg);
+    height: 300px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    padding-left: 40px;
+    background-position: center left;
+    background-size: cover;
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+
+.pic3{
+    background-image: url(img/portfolio-3.jpg);
+    height: 300px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    padding-left: 40px;
+    background-position: center left;
+    background-size: cover;
+    
+}
+
+.pic4{
+    background-image: url(img/portfolio-4.jpg);
+    height: 300px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    padding-left: 40px;
+    background-position: center left;
+    background-size: cover;
+}
+.text{
+    color: rgb(175, 211, 225);
+    font-size: 18px;
+    font-weight: lighter;
+}
+.billboard5{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 128, 163);
+    flex-direction: column;
+    color: white;
+}
+
+.button4{
+    border: 1px solid rgb(248, 249, 250);
+    align-items: center;
+    background-color: rgb(248, 249, 250);
+    border-radius: 5px;
+    color: black;
+    font-weight: normal;
+    height:  45px;
+    width: 100px; 
+    margin: 30px;
+}
+
+.button5{
+    border: 1px solid rgb(51, 58, 65);
+    align-items: center;
+    background-color: rgb(51, 58, 65);
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    height:  45px;
+    width: 100px; 
+}
+.map{
+   
+    padding-bottom: 50px;
+}
+.footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;  
+}
+
+ .fab{
+    display: flex;
+    border: 1px solid rgb(0, 128, 163);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 128, 163);
+    margin: 10px;
+    padding: 15px 15px;
+    color: white;
+    text-align: center; 
+    font-size: 30px;
+
+}
+.Copy{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+.copy{
+    color: rgb(158, 155, 177);
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+
+
